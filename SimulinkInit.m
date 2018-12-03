@@ -11,7 +11,7 @@ load('DMC_matrices');
 load('FitData')
 
 % se carga la libreria de true time.
-%run('truetime-2.0\init_truetime');
+run('truetime-2.0\init_truetime');
 
 
 %  Parámetros Motor Diesel
