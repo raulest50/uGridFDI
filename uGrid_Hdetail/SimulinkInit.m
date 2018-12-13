@@ -11,4 +11,5 @@ load('DMC_matrices');
 run('truetime-2.0\init_truetime');
 
 load('modeloElectrico');
+load('modeloDiesel_dotros')
 
