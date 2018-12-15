@@ -204,7 +204,7 @@ Pq_calculation = ...      % va  vb   ia  ib
 %%%%%%%%%%
 %
 BIO_initFcn = strrep(F_init_base, token_fname, Bio_ifname);
-BIO_initFcn = strrep(BIO_initFcn, token_st_time, num2str(5));
+BIO_initFcn = strrep(BIO_initFcn, token_st_time, num2str(.3));
 BIO_initFcn = strrep(BIO_initFcn, token_Ts, num2str(Ts));
 BIO_initFcn = strrep(BIO_initFcn, token_ftarget, Bio_fname);
 file_bio_init = fopen([Bio_ifname '.m'], 'w+');
@@ -247,7 +247,7 @@ fclose(file_BIO_c);
 %%%%%%%%%%
 %
 DIESEL_initFcn = strrep(F_init_base, token_fname, Diesel_ifname);
-DIESEL_initFcn = strrep(DIESEL_initFcn, token_st_time, num2str(5));
+DIESEL_initFcn = strrep(DIESEL_initFcn, token_st_time, num2str(.3));
 DIESEL_initFcn = strrep(DIESEL_initFcn, token_Ts, num2str(Ts));
 DIESEL_initFcn = strrep(DIESEL_initFcn, token_ftarget, Diesel_fname);
 file_diesel_init = fopen([Diesel_ifname '.m'], 'w+');
