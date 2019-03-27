@@ -1,3 +1,7 @@
+
+clear
+clc
+close all
 % este script es ejecutado al momento de ejecutar el modelo de simulink de
 % la microgrid de esta carpeta.
 % En la seccion de configuracion de simulink, En la pestaña de callBacks se
